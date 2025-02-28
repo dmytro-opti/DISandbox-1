@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DISandbox", "DISandbox.csproj", "{F88F4F8B-B3E8-4E25-9DFC-19939D3B30BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DISandbox", "DISandbox.csproj", "{F88F4F8B-B3E8-4E25-9DFC-19939D3B30BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectSandbox", "..\TestProjectSandbox\TestProjectSandbox.csproj", "{AF5E65F1-07D2-456C-A9A2-83BE12E2358C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F88F4F8B-B3E8-4E25-9DFC-19939D3B30BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F88F4F8B-B3E8-4E25-9DFC-19939D3B30BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F88F4F8B-B3E8-4E25-9DFC-19939D3B30BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF5E65F1-07D2-456C-A9A2-83BE12E2358C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF5E65F1-07D2-456C-A9A2-83BE12E2358C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF5E65F1-07D2-456C-A9A2-83BE12E2358C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF5E65F1-07D2-456C-A9A2-83BE12E2358C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

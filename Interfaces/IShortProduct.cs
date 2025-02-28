@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace DISandbox.Interfaces
 {
-    public interface IProduct : IShortProduct
+    public interface IShortProduct
     {
-        public string Description { get; set; }
+        public string Title { get; set; }
+        public double Price { get; set; }
     }
 }
